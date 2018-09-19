@@ -192,12 +192,12 @@
     \iflogos~\\	% Line fix
     	\begin{minipage}{3.2cm}
 	        \IfFileExists{images/logo-left.png}{
-	            \includegraphics[width=3.2cm]{images/logo-left.png}}{}
+	            \includegraphics[height=2cm]{images/logo-left.png}}{}
     	\end{minipage}
     	\hfill
         \begin{minipage}{3.2cm}
 	    	\IfFileExists{images/logo-right.png}{
-	            \includegraphics[width=3.2cm]{images/logo-right.png}}{}
+	            \includegraphics[height=2cm]{images/logo-right.png}}{}
 	    \end{minipage}
     	\vfill\fi 	% Fill space between title header and project logo and headings
     \begin{center}
@@ -217,7 +217,7 @@
 	~\\
     \begin{minipage}[t]{0.3\textwidth}
         Bewertung:\hfill\vspace{0.5em}\\
-        Betreuer:\hfill\@myteacher
+        Professor:\hfill\@myteacher
     \end{minipage}
     \hfill
     \begin{minipage}[t]{0.3\textwidth}
